@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: texas-great-cuts
+    runtime: static
+    buildCommand: echo "Static website — no build required"
+    staticPublishPath: .
