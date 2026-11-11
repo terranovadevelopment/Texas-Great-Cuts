@@ -1,0 +1,4 @@
+Add Claudia-approved photos here when received.
+Suggested filenames: claudia-portrait.jpg, salon-interior.jpg, claudia-at-work.jpg, haircut-gallery-1.jpg
+Update index.html placeholders to use those files. Compress photos to 200-400 KB when possible.
+Do not publish pictures of customers, particularly minors, without appropriate permission.
