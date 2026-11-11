@@ -29,3 +29,22 @@ section[id]{scroll-margin-top:15px}
 .lightbox-close{position:absolute;top:5px;right:9px;border:0;background:#481823;color:white;border-radius:50%;height:35px;width:35px;cursor:pointer;font-size:25px;line-height:1}
 @media(max-width:680px){.gallery-photo img{height:250px}}
 @media(max-width:420px){.gallery-photo img{height:auto;max-height:420px;object-fit:contain;background:#efe5db}}
+
+/* v2.0 — independent hairstylist opportunities */
+.opportunities{background:#fffaf5;border-top:1px solid #eadbd4}
+.opportunities-layout{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(270px,.75fr);gap:58px;align-items:center}
+.opportunities-copy>p:not(.section-kicker){max-width:670px;color:#5d5354}
+.opportunities-copy .opportunities-lede{font-size:19px;color:#442a31;font-weight:600}
+.opportunities-copy .opportunities-note{font-size:14px;margin:22px 0}
+.opportunities-panel{background:linear-gradient(145deg,#4a1724,#783946);color:#fff2e6;padding:44px 32px;min-height:365px;border-radius:18px;display:flex;flex-direction:column;justify-content:center;box-shadow:0 16px 38px #491b2522;text-align:center}
+.opportunities-symbol{font-size:46px;color:#eed1b4;line-height:1}
+.opportunities-panel-kicker{font-size:11px;font-weight:700;letter-spacing:.2em;color:#f1d0bb;margin:18px 0 10px}
+.opportunities-panel h3{font-family:'Playfair Display',Georgia,serif;font-weight:500;line-height:1.18;font-size:clamp(29px,3vw,42px);margin:0}
+.opportunities-panel h3 em{color:#e8bea7;font-weight:500}
+.opportunities-panel>p:not(.opportunities-panel-kicker){font-size:14px;margin:15px 0 0}
+.opportunities-panel-rule{height:1px;background:#ffffff55;width:70%;margin:27px auto 5px}
+.opportunities-panel-location{text-transform:uppercase;font-size:11px!important;letter-spacing:.18em}
+@media(max-width:850px){.opportunities-layout{grid-template-columns:1fr;gap:28px}.opportunities-panel{min-height:280px}}
+
+/* v2.1 developer contact information */
+.footer .developer-contact{display:block;font-size:12px;margin-top:5px;color:#f1dbd4;line-height:1.7}.footer .developer-contact a{color:#f1dbd4;text-decoration:underline;text-underline-offset:3px}.footer .developer-contact a:hover{color:#fff}.footer .developer-separator{display:inline;color:#c9a9ab;margin:0 7px}@media(max-width:500px){.footer .developer-contact a{display:block}.footer .developer-separator{display:none}}
