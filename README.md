@@ -1,14 +1,23 @@
-# Texas Great Cuts — v1.4 (manual GitHub upload)
+# Texas Great Cuts — Version 1.5
 
-This package contains the complete static website. The About Claudia section stays removed and no personal photograph of Claudia is used. The gallery now displays the three distinct salon images received so far, in their supplied order (waiting area, styling area, shampoo area). Duplicate photo uploads were not repeated. Additional images can be added later.
+Complete static website for Claudia Buxton’s Texas Great Cuts, Corinth, Texas.
 
-## Installation
+## Changes and contents
+- Displays three unique salon photos (waiting area, styling area, shampoo area) in the gallery.
+- Click a photograph to enlarge it.
+- Uses the salon-themed logo illustration on the splash page, with no personal portrait.
+- No Meet Claudia section and no online appointment booking.
+- Call Today, Explore Services, Contact, and Google Maps links included.
+- All paths are relative to the repository root.
 
-1. Extract the ZIP file on your computer.
-2. Open the `Texas-Great-Cuts` repository in GitHub and upload the **contents** of this folder, preserving the `images` folder and image files.
-3. Replace existing `index.html`, `styles.css`, `script.js` and `README.md` when asked; commit the changes.
-4. Render should redeploy automatically if automatic deployments are enabled.
+## Manual deployment with GitHub Desktop
+1. Right-click the ZIP downloaded from ChatGPT and choose **Extract All**.
+2. Open the resulting ordinary folder. Select **its contents**, not the enclosing folder.
+3. In GitHub Desktop select Texas-Great-Cuts, then Repository > Show in Explorer.
+4. Paste the extracted contents directly beside the existing index.html, choosing Replace when asked.
+5. In GitHub Desktop choose Commit to main and Push origin.
+6. Wait until Render displays the latest deploy as Live, then use Ctrl+F5 to refresh the browser.
 
-Do not upload the ZIP as a single file to the repository. Ensure `index.html` remains in the repository root and `images/01-salon-waiting-area.jpg` etc. appear under `images/`.
+Check that GitHub repository root contains **index.html**, **styles.css**, **script.js**, and **images/**, not a nested Texas-Great-Cuts directory.
 
-The displayed address, phone, business hours and services should be verified with Claudia before public promotion. No online appointment calendar is included.
+Phone, business hours, services, and street address should be confirmed with the business owner before final public promotion.
