@@ -1,23 +1,7 @@
-# Texas Great Cuts — Version 1.5
+Texas Great Cuts v1.6 — Upright Salon Photographs
 
-Complete static website for Claudia Buxton’s Texas Great Cuts, Corinth, Texas.
+This is a complete root-ready static website for manual GitHub Desktop upload.
 
-## Changes and contents
-- Displays three unique salon photos (waiting area, styling area, shampoo area) in the gallery.
-- Click a photograph to enlarge it.
-- Uses the salon-themed logo illustration on the splash page, with no personal portrait.
-- No Meet Claudia section and no online appointment booking.
-- Call Today, Explore Services, Contact, and Google Maps links included.
-- All paths are relative to the repository root.
+Fix: Three gallery photographs were sideways due to phone orientation metadata. Their pixels have now been physically rotated upright, including the enlarged views. All other site content remains as in v1.5.
 
-## Manual deployment with GitHub Desktop
-1. Right-click the ZIP downloaded from ChatGPT and choose **Extract All**.
-2. Open the resulting ordinary folder. Select **its contents**, not the enclosing folder.
-3. In GitHub Desktop select Texas-Great-Cuts, then Repository > Show in Explorer.
-4. Paste the extracted contents directly beside the existing index.html, choosing Replace when asked.
-5. In GitHub Desktop choose Commit to main and Push origin.
-6. Wait until Render displays the latest deploy as Live, then use Ctrl+F5 to refresh the browser.
-
-Check that GitHub repository root contains **index.html**, **styles.css**, **script.js**, and **images/**, not a nested Texas-Great-Cuts directory.
-
-Phone, business hours, services, and street address should be confirmed with the business owner before final public promotion.
+Extract this ZIP, open the extracted folder, and copy its CONTENTS directly to the local Texas-Great-Cuts repository root; replace existing files. Commit to main and Push origin in GitHub Desktop. Verify the Render deployment and refresh with Ctrl+F5.
