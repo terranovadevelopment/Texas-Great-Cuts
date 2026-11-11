@@ -1,17 +1,11 @@
-# Texas Great Cuts — Version 1.7
+# Texas Great Cuts — Version 1.9
 
 This package contains the complete static website for Texas Great Cuts.
 
-## Included in Version 1.7
-- Logo-based splash screen
+## Included in Version 1.9
+- Previous website content from Version 1.8
+- Four new gallery photos added
+- 10 gallery photos total
+- Entrance photo remains first in the gallery
 - No Meet Claudia section
-- Salon services, contact info, and map
-- Lightbox photo gallery
-- 5 salon photos total:
-  1. Waiting area & products
-  2. Styling area
-  3. Shampoo area
-  4. Kids' area & products
-  5. Kids' car chair
-
-Note: One of the three newly supplied photos was a duplicate of the Lightning McQueen chair image, so only the two distinct new photos were added.
+- Click-to-enlarge gallery remains enabled
