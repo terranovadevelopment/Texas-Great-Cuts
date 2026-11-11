@@ -1,21 +1,14 @@
-# Texas Great Cuts — website preview
+# Texas Great Cuts — v1.4 (manual GitHub upload)
 
-Static HTML/CSS/JavaScript website for Claudia Buxton's salon in Corinth, Texas. Prepared as a pre-launch preview; get Claudia's approval before making public.
+This package contains the complete static website. The About Claudia section stays removed and no personal photograph of Claudia is used. The gallery now displays the three distinct salon images received so far, in their supplied order (waiting area, styling area, shampoo area). Duplicate photo uploads were not repeated. Additional images can be added later.
 
-## Local preview
-Open `index.html` in a browser. Internet connectivity is required for the Google font and embedded Google Map; the rest of the page works offline.
+## Installation
 
-## GitHub + Render
-1. Create a repository such as `TerraNovaDevelopment/Texas-Great-Cuts`.
-2. Upload `index.html`, `styles.css`, `script.js` and `assets/` to the repository root.
-3. In Render choose **New > Static Site**, connect the repository, use **Build Command**: `echo 'No build required'` and **Publish Directory**: `.`.
-4. Deploy. Render will provide a `*.onrender.com` URL. Do not point a custom domain at the site until Claudia approves it.
+1. Extract the ZIP file on your computer.
+2. Open the `Texas-Great-Cuts` repository in GitHub and upload the **contents** of this folder, preserving the `images` folder and image files.
+3. Replace existing `index.html`, `styles.css`, `script.js` and `README.md` when asked; commit the changes.
+4. Render should redeploy automatically if automatic deployments are enabled.
 
-## Before launch
-- Replace the three gallery placeholders, hero placeholder and About placeholder with Claudia's own approved photos. Put optimized images under `assets/`.
-- Confirm business name/branding, address (7650 S Interstate 35 Suite 116, Corinth TX 76210), phone ((214) 694-1516), hours, services and prices with Claudia.
-- The appointment button calls the salon; no online booking system is configured.
-- Confirm permission for the footer developer credit, and get consent for any testimonials/photographs featuring customers.
-- Verify the embedded map resolves to Suite 116 on Google Maps; if the iframe is blocked for a particular browser, the Get Directions button still works.
+Do not upload the ZIP as a single file to the repository. Ensure `index.html` remains in the repository root and `images/01-salon-waiting-area.jpg` etc. appear under `images/`.
 
-No customer data is collected by this static website; third-party map and font hosts may receive routine requests when a visitor loads the page.
+The displayed address, phone, business hours and services should be verified with Claudia before public promotion. No online appointment calendar is included.
