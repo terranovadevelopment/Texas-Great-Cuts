@@ -1,7 +1,17 @@
-Texas Great Cuts v1.6 — Upright Salon Photographs
+# Texas Great Cuts — Version 1.7
 
-This is a complete root-ready static website for manual GitHub Desktop upload.
+This package contains the complete static website for Texas Great Cuts.
 
-Fix: Three gallery photographs were sideways due to phone orientation metadata. Their pixels have now been physically rotated upright, including the enlarged views. All other site content remains as in v1.5.
+## Included in Version 1.7
+- Logo-based splash screen
+- No Meet Claudia section
+- Salon services, contact info, and map
+- Lightbox photo gallery
+- 5 salon photos total:
+  1. Waiting area & products
+  2. Styling area
+  3. Shampoo area
+  4. Kids' area & products
+  5. Kids' car chair
 
-Extract this ZIP, open the extracted folder, and copy its CONTENTS directly to the local Texas-Great-Cuts repository root; replace existing files. Commit to main and Push origin in GitHub Desktop. Verify the Render deployment and refresh with Ctrl+F5.
+Note: One of the three newly supplied photos was a duplicate of the Lightning McQueen chair image, so only the two distinct new photos were added.
